@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbMvcOkulModelStoreContainer" CdmEntityContainer="DbMvcOkulEntities">
+    <EntitySetMapping Name="TBLDERSLER">
+      <EntityTypeMapping TypeName="DbMvcOkulModel.TBLDERSLER">
+        <MappingFragment StoreEntitySet="TBLDERSLER">
+          <ScalarProperty Name="DERSİD" ColumnName="DERSİD" />
+          <ScalarProperty Name="DERSAD" ColumnName="DERSAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLKULUP">
+      <EntityTypeMapping TypeName="DbMvcOkulModel.TBLKULUP">
+        <MappingFragment StoreEntitySet="TBLKULUP">
+          <ScalarProperty Name="KULUPID" ColumnName="KULUPID" />
+          <ScalarProperty Name="KULUPAD" ColumnName="KULUPAD" />
+          <ScalarProperty Name="KULUPKONT" ColumnName="KULUPKONT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLNOTLAR">
+      <EntityTypeMapping TypeName="DbMvcOkulModel.TBLNOTLAR">
+        <MappingFragment StoreEntitySet="TBLNOTLAR">
+          <ScalarProperty Name="NOTID" ColumnName="NOTID" />
+          <ScalarProperty Name="DERSİD" ColumnName="DERSİD" />
+          <ScalarProperty Name="OGRID" ColumnName="OGRID" />
+          <ScalarProperty Name="SINAV1" ColumnName="SINAV1" />
+          <ScalarProperty Name="SINAV2" ColumnName="SINAV2" />
+          <ScalarProperty Name="SINAV3" ColumnName="SINAV3" />
+          <ScalarProperty Name="PROJE" ColumnName="PROJE" />
+          <ScalarProperty Name="ORTALAMA" ColumnName="ORTALAMA" />
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLOGRENCILER">
+      <EntityTypeMapping TypeName="DbMvcOkulModel.TBLOGRENCILER">
+        <MappingFragment StoreEntitySet="TBLOGRENCILER">
+          <ScalarProperty Name="OGRENCIID" ColumnName="OGRENCIID" />
+          <ScalarProperty Name="OGRAD" ColumnName="OGRAD" />
+          <ScalarProperty Name="OGRSOYAD" ColumnName="OGRSOYAD" />
+          <ScalarProperty Name="OGRFOTOGRAF" ColumnName="OGRFOTOGRAF" />
+          <ScalarProperty Name="OGRCINSIYET" ColumnName="OGRCINSIYET" />
+          <ScalarProperty Name="OGRKULUP" ColumnName="OGRKULUP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
